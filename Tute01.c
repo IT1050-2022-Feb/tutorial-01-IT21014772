@@ -15,7 +15,7 @@ int main()
   scanf("%d", &sub2);
 
   tot = sub1 + sub2;
-  avg = tot/2;
+  avg = (float) tot/2;
 
   printf ("Average is %.2f", avg);
     
